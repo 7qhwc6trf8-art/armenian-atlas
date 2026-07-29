@@ -129,7 +129,6 @@
 }
 
 @utility atlas-glass {
-  border: 1px solid var(--atlas-line-strong);
   background: color-mix(in srgb, var(--atlas-card) 88%, transparent);
   box-shadow: var(--atlas-card-shadow);
   backdrop-filter: blur(24px) saturate(1.18);
