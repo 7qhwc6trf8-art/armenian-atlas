@@ -1,0 +1,16 @@
+{
+  "name": "Armenian Heritage Atlas",
+  "short_name": "Հայկական Ատլաս",
+  "description": "Interactive historical atlas of the 15 provinces of Greater Armenia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#efe9df",
+  "theme_color": "#970b34",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
