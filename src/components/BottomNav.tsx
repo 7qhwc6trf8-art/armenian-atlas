@@ -20,7 +20,7 @@ export function BottomNav({ active, onChange }: BottomNavProps) {
 
   return (
     <nav
-      className="relative z-[1100] min-h-[50px] shrink-0"
+      className="relative z-[1100] min-h-[calc(50px+var(--tg-safe-bottom))] shrink-0"
       aria-label={t('aria.mainNav')}
     >
       <div className="atlas-glass grid h-full grid-cols-4 p-1.5 shadow-[0_16px_46px_rgba(42,25,31,0.16)] w-full dark:shadow-[0_18px_48px_rgba(0,0,0,0.42)]">
